@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1" android:id="@+id/MainLayout"
+              android:gravity="center_vertical">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:gravity="center">
+        <TextView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:id="@+id/Color1"/>
+        <TextView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:id="@+id/Color2"/>
+        <TextView android:layout_width="40dp" android:layout_height="20dp" android:id="@+id/Color3"/>
+        <TextView android:layout_width="40dp" android:layout_height="20dp" android:id="@+id/Color4"/>
+        <TextView android:layout_width="40dp" android:layout_height="20dp" android:id="@+id/Color5"/>
+        <TextView android:layout_width="40dp" android:layout_height="20dp" android:id="@+id/Color6"/>
+        <TextView android:layout_width="40dp" android:layout_height="20dp" android:id="@+id/Color7"/>
+        <TextView android:layout_width="40dp" android:layout_height="20dp" android:id="@+id/Color8"/>
+    </LinearLayout>
+    <SeekBar
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:id="@+id/seekBar" android:max="7" android:layout_gravity="center"/>
+    <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/Red"/>
+    <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/Blue"/>
+    <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/Green"/>
+</LinearLayout>
